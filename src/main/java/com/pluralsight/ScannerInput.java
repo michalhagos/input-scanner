@@ -25,6 +25,32 @@ public class ScannerInput {
         System.out.print("How many brothers do you have ? ") ;
         int numBrothers = michalScanner.nextInt();
         System.out.println("You have " + numBrothers + " brothers");
+        // Calculator
+        // created new scanner to calculate the sum of two numbers
+
+        Scanner myScanner = new Scanner(System.in );
+
+        // ask input for the first number
+
+        System.out.print(" Write the first number here :");
+
+        // store the input you get in the variable named first number
+
+        int firstNumber = myScanner.nextInt();
+
+        // ask input for the second number
+
+        System.out.print("Write your second number here : ");
+
+        // store the input you get in the variable named second number
+
+        int secondNumber = myScanner.nextInt();
+
+        // a variable that stores the sum of the two numbers
+
+        int sum = firstNumber + secondNumber;
+        System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is " + sum);
+
 
 
 
