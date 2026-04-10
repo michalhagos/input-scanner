@@ -22,6 +22,10 @@ public class ScannerInput {
         String brothers = michalScanner.nextLine();
         System.out.println("Do you have brothers? " + brothers);
 
+        System.out.print("How many brothers do you have ? ") ;
+        int numBrothers = michalScanner.nextInt();
+        System.out.println("You have " + numBrothers + " brothers");
+
 
 
 
